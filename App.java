@@ -11,18 +11,31 @@
  */
 public class App{
     public static void main(String[] args) {
-        /*
-        Aluno aluno1 = new Aluno();
-        aluno1.nome = "Gabriel";
-        aluno1.altura = 1.70;
-        aluno1.matricula = 123;
-        */
+       
         Aluno aluno1 = new Aluno("Louise", 1.57, 853792, "Safada");
         aluno1.pedirNota("Daniel"); 
         System.out.println("A nacionalidade de " +  aluno1.nome + " é: " + aluno1.nacionalidade);
         Aluno aluno2 = new Aluno("Gio",1.70,853797,"Flor");
         aluno2.pedirMatricula(aluno2.matricula);
 
+
+    }
+} 
+
+
+
+
+
+
+/*
+        Aluno aluno1 = new Aluno();
+        aluno1.nome = "Gabriel";
+        aluno1.altura = 1.70;
+        aluno1.matricula = 123;
+        */
+
+
+        
         /* 
         System.out.println("Nome: " + aluno1.nome);
          spaceMenu();  
@@ -40,6 +53,3 @@ public class App{
         aluno2.pedirNota("Márcio");
         aluno2.pedirMatricula(aluno2.matricula);
         */  
-
-    }
-}
