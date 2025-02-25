@@ -1,7 +1,26 @@
-public class Aluno{
+/*public class Aluno{
     public String nome;
     public double altura;
     public int matricula;
+    public String nacionalidade; 
+  */  
+public class Aluno {
+
+    public String nome;
+    public double altura;
+    public int matricula;
+    public String nacionalidade;
+
+
+
+    public Aluno (String nome, double altura, int matricula, String nacionalidade ){
+
+        this.nome=nome;
+        this.altura=altura;
+        this.matricula=matricula;
+        this.nacionalidade=nacionalidade;
+
+    }
     
 
     public void spaceMenu(){
@@ -19,3 +38,4 @@ public class Aluno{
         System.out.println("A matrícula de " + nome + " é: "+ matricula);
     }
 }
+
