@@ -23,9 +23,6 @@ public class Aluno {
     }
     
 
-    public void spaceMenu(){
-        System.out.println(" ");
-    }
 
     public void estudar(String materia){
     System.out.println( nome + materia);

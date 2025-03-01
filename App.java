@@ -11,14 +11,22 @@
  */
 public class App{
     public static void main(String[] args) {
-       
-        Aluno aluno1 = new Aluno("Louise", 1.57, 853792, "Safada");
+/* 
+        Aluno aluno1 = new Aluno("Louise", 1.57, 853792, "Brasileira");
         aluno1.pedirNota("Daniel"); 
+    
         System.out.println("A nacionalidade de " +  aluno1.nome + " é: " + aluno1.nacionalidade);
         Aluno aluno2 = new Aluno("Gio",1.70,853797,"Flor");
         aluno2.pedirMatricula(aluno2.matricula);
+*/
 
 
+        Filme filme1 = new Filme("Cidadão Kane", 1941 , "Orson Welles", 119);
+        filme1.consultarDuracao(filme1.duracaoMinutos);
+        
+        filme1.consultarAnoLancamento(filme1.anoLancamento);
+
+        
     }
 } 
 
